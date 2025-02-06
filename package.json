@@ -1,0 +1,26 @@
+{
+  "name": "an_xr7-theme",
+  "displayName": "an_xr7 theme",
+  "description": "an_xr7 theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Modern Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/@an_xr7-modern-dark.json"
+      },
+      {
+        "label": "Forest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/@an_xr7-forest-dark.json"
+      }
+    ]
+  }
+}
